@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import "../styles/main.scss";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -9,15 +9,15 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={200}
           height={38}
           priority
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            Geg <code>src/app/page.tsx</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>donasiodnaoisdnaiodan.</li>
         </ol>
 
         <div className={styles.ctas}>
